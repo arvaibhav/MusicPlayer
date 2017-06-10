@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="200" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="522" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="8d3b1" class="javax.swing.JButton" binding="playButton_1">
+        <constraints>
+          <grid row="1" column="1" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <alignmentY value="0.0"/>
+          <background color="-723724"/>
+          <horizontalAlignment value="0"/>
+          <text value="Play RX-0"/>
+        </properties>
+      </component>
+      <component id="5a5b0" class="javax.swing.JButton" binding="playButton_2">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Play 風ノ歌"/>
+        </properties>
+      </component>
+      <component id="2ff81" class="javax.swing.JButton" binding="stopButton_1">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Stop"/>
+        </properties>
+      </component>
+      <component id="30ef0" class="javax.swing.JSlider" binding="volumeSlider">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <inverted value="true"/>
+          <maximum value="100"/>
+          <minimum value="0"/>
+          <orientation value="1"/>
+          <value value="50"/>
+          <valueIsAdjusting value="false"/>
+        </properties>
+      </component>
+      <component id="2afe8" class="javax.swing.JLabel" binding="volumeLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Volume 50%"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
