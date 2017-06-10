@@ -32,7 +32,7 @@ public class MainForm extends JFrame {
                     SoundEffect.RX_0.play();
                     playButton_1.setText("Pause");
                 }
-                if(playButton_1.getText().equals("Pause")){
+                else if(playButton_1.getText().equals("Pause")){
                     SoundEffect.RX_0.pause();
                     playButton_1.setText("Resume RX-0");
                 }
